@@ -1,0 +1,74 @@
+
+/* title */
+/* our services */
+h1{
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 7px;
+}
+h1 span{
+    color: #39b6cc;
+    margin: 0 -15px;
+}
+
+/* line */
+.line {
+    margin-left: 570px;
+    margin-top: -35px;
+}
+
+/* paraghraph */
+.h2 , p , h3 , p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+
+.h3 p {
+    margin-top: -10px;
+}
+
+/* blocks */
+
+.parent{
+    /* background: white; */
+    background: rgb(231, 231, 231);
+    height: 600px;
+}
+.parent .block{
+    background: white;
+    width: 25%;
+    height: 250px;
+    border: 2px solid #ff7c24;
+    float: left;
+    margin: 25px 50px;
+}
+
+.parent .block img {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 12px;
+    
+}
+
+.parent .block h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.parent .block h2 span {
+    color: #078fa7;
+    margin: -5px;
+}
+
+.parent .block .pr p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 9px;
+    color: rgb(110, 75, 75);
+}
